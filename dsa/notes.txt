@@ -1,0 +1,4 @@
+infix to postfix
+infix : A+B*C
+
+postfix :  ABC *+
