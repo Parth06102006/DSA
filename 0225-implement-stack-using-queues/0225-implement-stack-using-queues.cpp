@@ -7,39 +7,25 @@ public:
     
     void push(int x) {
         q1.push(x);
+        for(int i=0;i<q1.size()-1;i++){
+            q1.push(q1.front());
+            q1.pop();
+        }
     }
     
     int pop() {
-        reverse();
         int topElem = q1.front();
         q1.pop();
-        if(q1.size() > 1){
-            reverse();
-        }
         return topElem;
 
     }
     
     int top() {
-        return q1.back();
+        return q1.front();
     }
     
     bool empty() {
         return q1.empty();
-    }
-
-    void reverse(){
-        if(q1.empty()){
-            return;
-        }
-
-        int front = q1.front();
-        q1.pop();
-
-        reverse();
-
-        q1.push(front);
-
     }
 };
 
