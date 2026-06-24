@@ -2,7 +2,8 @@ class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
 
-        stack<int> st;
+
+        // BRUTE FORCE SOLUTION
         vector<int> ans(nums.size(),-1);
         int n = nums.size();
 
@@ -21,11 +22,9 @@ public:
 
             while(!haveFound && (j<i)){
                 int new_curr_element = nums[j];
-                if(new_curr_element > curr_element){haveFound=1;ans[i] = new_curr_element;break;}
+                if(new_curr_element > curr_element){ans[i] = new_curr_element;break;}
                 j++;
             }
-
-            if(!haveFound) ans[i] = -1;
 
         }
 
