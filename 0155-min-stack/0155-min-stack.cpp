@@ -1,7 +1,9 @@
 class MinStack {
 public:
 
-    stack<int> s1;
+    // ----------- BRUTE FORCE APPROACH ------------
+    
+    /* stack<int> s1;
     int minElem = INT_MAX;
 
     MinStack() {
@@ -43,6 +45,34 @@ public:
     
     int getMin() {
         return minElem;
+    } */
+
+    // -------------- OPTIMAL PPROACH
+
+    stack<pair<int,int>> s1;
+
+    MinStack() {
+        
+    }
+    
+    void push(int value) {
+        if(!s1.empty()){
+            s1.push({value,min(value,s1.top().second)});
+        }else{
+            s1.push({value,value});
+        }
+    }
+    
+    void pop() {
+        s1.pop();
+    }
+    
+    int top() {
+        return s1.top().first;
+    }
+    
+    int getMin() {
+        return s1.top().second;
     }
 };
 
