@@ -47,8 +47,8 @@ public:
         return minElem;
     } */
 
-    // -------------- OPTIMAL PPROACH
-
+    // -------------- BETTER PPROACH
+/* 
     stack<pair<int,int>> s1;
 
     MinStack() {
@@ -73,6 +73,43 @@ public:
     
     int getMin() {
         return s1.top().second;
+    } */
+
+    // -------------- OPTIMAL APPROACH -------
+
+    stack<long long> s1;
+    long long mini = LLONG_MAX;
+
+    MinStack() {
+        
+    }
+    
+    void push(int value) {
+        if(s1.empty()){
+            s1.push(value);
+            mini = value;
+        }else{
+            if(mini<value) s1.push(value);
+            else {long long new_value = 2LL*value-mini;s1.push(new_value);mini = value;}
+        }
+    }
+    
+    void pop() {
+        long long elem = s1.top();
+        s1.pop();
+        if(elem < mini){
+            mini = 2*mini - elem;
+        }
+    }
+    
+    int top() {
+        long long elem = s1.top();
+        if(elem > mini) return elem;
+        return mini;
+    }
+    
+    int getMin() {
+        return mini;
     }
 };
 
