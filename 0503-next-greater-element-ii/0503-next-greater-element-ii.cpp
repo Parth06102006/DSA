@@ -4,7 +4,7 @@ public:
 
 
         // BRUTE FORCE SOLUTION
-        vector<int> ans(nums.size(),-1);
+        /* vector<int> ans(nums.size(),-1);
         int n = nums.size();
 
         for(int i=n-1;i>=0;i--){
@@ -28,6 +28,27 @@ public:
 
         }
 
+        return ans; */
+
+
+        // OPTIMAL APPROACH
+
+        int n = nums.size();
+        vector<int> ans(n,-1);
+        stack<int> st;
+
+        for(int i=2*n-1;i>=0;i--){
+
+            while(!st.empty() && (st.top() <= nums[i%n])) st.pop();
+
+            // When the elements are less than the virtual index
+            if(i<n){
+                ans[i] = st.empty() ? -1 : st.top();
+            }
+
+            st.push(nums[i%n]);
+        }
+        
         return ans;
 
     }
