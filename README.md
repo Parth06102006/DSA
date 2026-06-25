@@ -17,10 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Parth06102006/DSA/tree/master/0067-add-binary) |
+| [0371-sum-of-two-integers](https://github.com/Parth06102006/DSA/tree/master/0371-sum-of-two-integers) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Parth06102006/DSA/tree/master/0067-add-binary) |
+| [0371-sum-of-two-integers](https://github.com/Parth06102006/DSA/tree/master/0371-sum-of-two-integers) |
 ## Simulation
 |  |
 | ------- |
