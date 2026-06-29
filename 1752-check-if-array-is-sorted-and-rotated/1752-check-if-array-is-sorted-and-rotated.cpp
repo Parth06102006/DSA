@@ -1,7 +1,9 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        int n = nums.size();
+
+        // BRUTE FORCE
+        /* int n = nums.size();
         int i = 0;
         int j = n-1;
         int temp = -1;
@@ -43,8 +45,19 @@ public:
             j--;
         }
 
-        return true;
+        return true; */
 
+        int count = 0;
+        int n = nums.size();
+
+        for(int i=0;i<n;i++){
+            if(nums[i] > nums[(i+1)%n]){
+                count++;
+            }
+        }
+
+        if(count >= 2) return false;
+        return true;
 
     }
 };
