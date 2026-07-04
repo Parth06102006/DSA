@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Parth06102006/DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Parth06102006/DSA/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parth06102006/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parth06102006/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Parth06102006/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parth06102006/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Parth06102006/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Parth06102006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
+| [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Parth06102006/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parth06102006/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -155,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Sorting
 |  |
