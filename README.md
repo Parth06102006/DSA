@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Parth06102006/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Parth06102006/DSA/tree/master/0155-min-stack) |
 | [0460-lfu-cache](https://github.com/Parth06102006/DSA/tree/master/0460-lfu-cache) |
+| [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
 | [0901-online-stock-span](https://github.com/Parth06102006/DSA/tree/master/0901-online-stock-span) |
 ## Array
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
 | [0496-next-greater-element-i](https://github.com/Parth06102006/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parth06102006/DSA/tree/master/0503-next-greater-element-ii) |
+| [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
 | [0735-asteroid-collision](https://github.com/Parth06102006/DSA/tree/master/0735-asteroid-collision) |
 | [0904-fruit-into-baskets](https://github.com/Parth06102006/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parth06102006/DSA/tree/master/0907-sum-of-subarray-minimums) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Parth06102006/DSA/tree/master/0217-contains-duplicate) |
 | [0460-lfu-cache](https://github.com/Parth06102006/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Parth06102006/DSA/tree/master/0496-next-greater-element-i) |
+| [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
 | [0904-fruit-into-baskets](https://github.com/Parth06102006/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Parth06102006/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Parth06102006/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -183,9 +186,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Parth06102006/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Parth06102006/DSA/tree/master/0460-lfu-cache) |
+| [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Parth06102006/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Parth06102006/DSA/tree/master/0460-lfu-cache) |
+## Hash Function
+|  |
+| ------- |
+| [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
 <!---LeetCode Topics End-->
