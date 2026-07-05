@@ -1,23 +1,70 @@
 class MyHashSet {
-public:
-    vector<int> isPresent = vector<int>(1000000,0);
 
-    MyHashSet() {
+    private:
+
+        class Node{
+
+            public:
+
+                int key;
+                Node* next;
+
+                Node(int key) : key(key),next(nullptr){};
+        };
+
+        vector<Node*> set;
         
-    }
-    
-    void add(int key) {
-        isPresent[key] = 1;
+        int hashKey(int key){
+            return key % set.size();
+        }
+        
 
-    }
-    
-    void remove(int key) {
-        isPresent[key] = 0;
-    }
-    
-    bool contains(int key) {
-        return (isPresent[key] == 1) ? true : false;
-    }
+    public:
+
+        MyHashSet() {
+            set.resize(10000);
+            for(auto &bucket : set){
+                bucket = new Node(0);
+            }
+        }
+        
+        void add(int key) {
+            Node* curr = set[hashKey(key)];
+            while(curr->next){
+                if(curr->next->key == key){
+                    return ;
+                }
+                curr = curr->next;
+            }
+
+            curr->next = new Node(key);
+            return;
+
+        }
+        
+        void remove(int key) {
+            Node* curr = set[hashKey(key)];
+            while(curr->next){
+                if(curr->next->key == key){
+                    Node* temp = curr->next;
+                    curr->next = temp->next;
+                    delete temp;
+                    return ;
+                }
+                curr = curr->next;
+            }
+        }
+        
+        bool contains(int key) {
+            Node* curr = set[hashKey(key)];
+            while(curr->next){
+                if(curr->next->key == key){
+                    return true;
+                }
+                curr=curr->next;
+            }
+            return false;
+        }
 };
 
 /**
