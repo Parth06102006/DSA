@@ -1,7 +1,5 @@
 class MyHashSet {
 public:
-
-    vector<int> nums;
     vector<int> isPresent = vector<int>(1000000,0);
 
     MyHashSet() {
@@ -9,26 +7,12 @@ public:
     }
     
     void add(int key) {
-        if(isPresent[key] == 0){
-            nums.push_back(key);
-            isPresent[key] = 1;
-        }
+        isPresent[key] = 1;
 
     }
     
     void remove(int key) {
-        if (isPresent[key] == 1){
-            for(int i=0;i<nums.size();i++){
-                if(key == nums[i])
-                {
-                    for(int j=i+1;j<nums.size();j++){
-                        nums[j-1] = nums[j];
-                    }
-                    isPresent[key] = 0;
-                    break;
-                }
-            }
-        }
+        isPresent[key] = 0;
     }
     
     bool contains(int key) {
