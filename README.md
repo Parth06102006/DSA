@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Parth06102006/DSA/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Parth06102006/DSA/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Parth06102006/DSA/tree/master/0067-add-binary) |
+| [0076-minimum-window-substring](https://github.com/Parth06102006/DSA/tree/master/0076-minimum-window-substring) |
 | [0402-remove-k-digits](https://github.com/Parth06102006/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Parth06102006/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Parth06102006/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Parth06102006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Parth06102006/DSA/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Parth06102006/DSA/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/Parth06102006/DSA/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/Parth06102006/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Parth06102006/DSA/tree/master/0219-contains-duplicate-ii) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Parth06102006/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Parth06102006/DSA/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/Parth06102006/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Parth06102006/DSA/tree/master/0424-longest-repeating-character-replacement) |
