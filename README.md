@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Parth06102006/DSA/tree/master/0067-add-binary) |
 | [0371-sum-of-two-integers](https://github.com/Parth06102006/DSA/tree/master/0371-sum-of-two-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Parth06102006/DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Parth06102006/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Parth06102006/DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Bit Manipulation
 |  |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Parth06102006/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Parth06102006/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Parth06102006/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/Parth06102006/DSA/tree/master/2104-sum-of-subarray-ranges) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Parth06102006/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Hash Table
@@ -266,5 +268,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Parth06102006/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Parth06102006/DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
