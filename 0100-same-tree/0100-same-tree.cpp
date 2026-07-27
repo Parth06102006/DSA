@@ -12,30 +12,12 @@
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        
-        if(p == nullptr && q==nullptr) return true;
-        else{
-            if(p==nullptr) return false;
-            if(q==nullptr) return false;
-        }
+        if(p == NULL and q== NULL) return true;
 
-        queue <pair<TreeNode*,TreeNode*>> check_queue;
-        check_queue.push({p,q});
+        if(p == NULL or q == NULL) return false;
 
-        while(!check_queue.empty()){
-            TreeNode* tree_one = check_queue.front().first;
-            TreeNode* tree_second = check_queue.front().second;
-            check_queue.pop();
-
-            if(tree_one->val != tree_second->val) return false;
-
-            if(tree_one->left != nullptr && tree_second->left != nullptr) check_queue.push({tree_one->left,tree_second->left});
-            else if((tree_one->left == nullptr && tree_second->left != nullptr) || (tree_one->left != nullptr && tree_second->left == nullptr )) return false;
-
-            if(tree_one->right != nullptr && tree_second->right != nullptr) check_queue.push({tree_one->right,tree_second->right});
-            else if((tree_one->right == nullptr && tree_second->right != nullptr) || (tree_one->right != nullptr && tree_second->right == nullptr )) return false;
-        }
-
-        return true;
+        return p->val == q->val 
+            and isSameTree(p->left,q->left)
+            and isSameTree(p->right,q->right);
     }
 };
