@@ -12,15 +12,10 @@
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
-        return helper(root);
-    }   
-
-    TreeNode* helper(TreeNode* root){
-        
         if(root == NULL) return NULL;
 
-        helper(root->left);
-        helper(root->right);
+        invertTree(root->left);
+        invertTree(root->right);
 
         TreeNode* left = root->left;
         TreeNode* right = root->right;
@@ -29,6 +24,5 @@ public:
         root->right = left;
 
         return root;
-
-    }
+    }   
 };
