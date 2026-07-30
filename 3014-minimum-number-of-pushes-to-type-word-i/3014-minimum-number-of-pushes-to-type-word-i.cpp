@@ -5,8 +5,10 @@ public:
 
         if ( wordLength <= 8 ) return wordLength;
 
-        int sum = 0;
-        int cnt = 1;
+        int sum = 8;
+        wordLength -= 8;
+        
+        int cnt = 2;
         
         while(wordLength > 0){
             if(wordLength > 8){
