@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/Parth06102006/DSA/tree/master/0067-add-binary) |
 | [0371-sum-of-two-integers](https://github.com/Parth06102006/DSA/tree/master/0371-sum-of-two-integers) |
+| [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Parth06102006/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Parth06102006/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Parth06102006/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Parth06102006/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Parth06102006/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
+| [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Parth06102006/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parth06102006/DSA/tree/master/0503-next-greater-element-ii) |
 | [0705-design-hashset](https://github.com/Parth06102006/DSA/tree/master/0705-design-hashset) |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Parth06102006/DSA/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Parth06102006/DSA/tree/master/0085-maximal-rectangle) |
 | [0152-maximum-product-subarray](https://github.com/Parth06102006/DSA/tree/master/0152-maximum-product-subarray) |
+| [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parth06102006/DSA/tree/master/0907-sum-of-subarray-minimums) |
 ## Greedy
 |  |
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Parth06102006/DSA/tree/master/0143-reorder-list) |
+| [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 ## Tree
 |  |
 | ------- |
@@ -341,4 +345,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/Parth06102006/DSA/tree/master/0700-search-in-a-binary-search-tree) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
