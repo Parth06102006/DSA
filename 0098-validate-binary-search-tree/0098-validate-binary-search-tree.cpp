@@ -10,28 +10,28 @@
  * };
  */
 class Solution {
-public:
-    bool isValidBST(TreeNode* root) {
-        vector<int> nums;
-        inorder(root,nums);
 
-        int n = nums.size();
-        for(int i=1;i<n;i++){
-            if(nums[i-1] >= nums[i]) return false;
+    TreeNode* prev = nullptr;
+
+    bool inorder(TreeNode *root){
+        if(root == NULL){
+            return true;
         }
 
-        return true;
+        if (!inorder(root->left)) return false;
+
+        if(prev && prev->val >= root->val){
+            return false;
+        }
+
+        prev = root;
+
+        return inorder(root->right);
     }
 
-    vector<int> inorder(TreeNode *root,vector<int> &nums){
-        if(root == NULL){
-            return nums;
-        }
 
-        inorder(root->left,nums);
-        nums.push_back(root->val);
-        inorder(root->right,nums);
-
-        return nums;
+public:
+    bool isValidBST(TreeNode* root) {
+        return inorder(root);
     }
 };
