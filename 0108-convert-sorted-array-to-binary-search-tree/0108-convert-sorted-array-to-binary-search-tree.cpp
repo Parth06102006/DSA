@@ -14,7 +14,7 @@ class Solution {
     TreeNode* helper(vector<int> nums,int l,int r){
         if( l > r ) return NULL;
 
-        int mid = (l+r)/2;
+        int mid = l + (r-l)/2;
 
         TreeNode* newNode = new TreeNode(nums[mid]);
 
