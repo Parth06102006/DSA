@@ -10,35 +10,42 @@
  * };
  */
 class Solution {
-    void inOrder(TreeNode* root,vector<TreeNode*> &nodes,vector<int> &nums){
+    void inOrder(TreeNode* root,vector<TreeNode*> &nodes){
         if(root == NULL) return;
 
-        inOrder(root->left,nodes,nums);
+        inOrder(root->left,nodes);
         nodes.push_back(root);
-        nums.push_back(root->val);
-        inOrder(root->right,nodes,nums);
+        inOrder(root->right,nodes);
     }
-    const int NUMBER_OF_TIMES_TO_SWAP=2;
+
 public:
     void recoverTree(TreeNode* root) {
         vector<TreeNode*> nodes;
-        vector<int> nums;
 
-        inOrder(root,nodes,nums);
-
-        sort(nums.begin(),nums.end());
+        inOrder(root,nodes);
         
-        int times_swapped = 0;
+        TreeNode* firstElement = NULL;
+        TreeNode* lastElement = NULL;
 
-        for(int i=0;i<nums.size();i++){
+        for(int i=1;i<nodes.size();i++){
 
-            if(NUMBER_OF_TIMES_TO_SWAP == times_swapped) break;
-
-            if(nodes[i]->val != nums[i]){
-                nodes[i]->val = nums[i];
-                times_swapped++;
+            if(firstElement == NULL){
+                if(nodes[i]->val < nodes[i-1]->val) firstElement =  nodes[i-1];
             }
+
+            if(lastElement == NULL){
+                if(nodes[nodes.size()-i-1]->val > nodes[nodes.size()-i]->val) lastElement = nodes[nodes.size()-i];
+            }
+
+            if(firstElement != NULL && lastElement != NULL) {
+                break;
+            }
+
         }
+
+        int temp = firstElement->val;
+        firstElement->val = lastElement->val;
+        lastElement->val = temp;
 
     }
 };
