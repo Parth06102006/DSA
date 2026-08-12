@@ -9,36 +9,18 @@
  */
 class Solution {
 
-    bool getAncestors(TreeNode* root,TreeNode* p,vector<TreeNode*> &nums){
-
-        if(root == NULL) return false;
-
-        if(root == p) {nums.push_back(root);return true;}
-
-        if( getAncestors(root->left,p,nums) || getAncestors(root->right,p,nums)){
-            nums.push_back(root);
-            return true;
-        }
-
-        return false;
-    }
 
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        vector<TreeNode*> ancestorsP;
-        vector<TreeNode*> ancestorsQ;
+        if(!root || root->val == p->val || root->val == q->val) return root;
 
-        getAncestors(root,p,ancestorsP);
-        getAncestors(root,q,ancestorsQ);
+        TreeNode* leftNode = lowestCommonAncestor(root->left,p,q);
+        TreeNode* rightNode = lowestCommonAncestor(root->right,p,q);
 
-        int i = ancestorsP.size()-1;
-        int j = ancestorsQ.size()-1;
+        if(!leftNode) return rightNode;
+        if(!rightNode) return leftNode;
 
-        while(i >= 0 and j>=0 and ancestorsP[i]->val == ancestorsQ[j]->val) {
-            i--;j--;
-        }
-
-        return ancestorsP[i+1];
+        return root;
 
     }
 };
