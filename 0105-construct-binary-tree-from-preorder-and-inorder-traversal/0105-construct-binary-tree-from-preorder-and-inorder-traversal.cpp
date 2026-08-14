@@ -10,26 +10,19 @@
  * };
  */
 class Solution {
-
+    unordered_map<int,int> mpp;
     TreeNode* helper(vector<int> preorder,vector<int> inorder,int startPreOrder,int endPreOrder,int startInOrder,int endInOrder){
 
-        if(startPreOrder >= endPreOrder || startInOrder >= endInOrder) return NULL;
+        if(startPreOrder > endPreOrder) return NULL;
 
         TreeNode* root = new TreeNode(preorder[startPreOrder]);
 
-        int i=startInOrder;
-
-        for(;i<endInOrder;i++){
-            if(root->val == inorder[i]){
-                break;
-            }
-        }
-
+        int i = mpp[root->val];
         int leftSize = i-startInOrder;
 
 
         // I have to add params here
-        root->left = helper(preorder,inorder,startPreOrder+1,leftSize+startPreOrder+1,startInOrder,i);
+        root->left = helper(preorder,inorder,startPreOrder+1,leftSize+startPreOrder,startInOrder,i-1);
         root->right = helper(preorder,inorder,leftSize+startPreOrder+1,endPreOrder,i+1,endInOrder);
 
         return root;
@@ -37,6 +30,9 @@ class Solution {
 
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        return helper(preorder,inorder,0,preorder.size(),0,inorder.size());
+        for(int i=0;i<inorder.size();i++){
+            mpp[inorder[i]] = i;
+        }
+        return helper(preorder,inorder,0,preorder.size()-1,0,inorder.size()-1);
     }
 };
