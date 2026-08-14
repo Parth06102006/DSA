@@ -1,7 +1,6 @@
 struct Data {
-    int leftSum = 0;
-    int rightSum = 0;
-    int maxSum = INT_MIN;
+    int straightPathSum = 0;
+    int maxPathSum = INT_MIN;
 };
 
 class Solution {
@@ -14,17 +13,8 @@ class Solution {
 
         Data ans;
 
-        int left = max({0,leftAns.leftSum,leftAns.rightSum});
-        int right = max({0,rightAns.leftSum,rightAns.rightSum});
-
-        int sum = left + right + root->val;
-        int leftSum = left + root->val;
-        int rightSum = right + root->val;
-
-        ans.leftSum = leftSum;
-        ans.rightSum = rightSum;
-        
-        ans.maxSum = max<long long>({root->val,leftSum,rightSum,sum,leftAns.maxSum,rightAns.maxSum});
+        ans.straightPathSum = max({0,leftAns.straightPathSum,rightAns.straightPathSum}) + root->val;
+        ans.maxPathSum = max({leftAns.maxPathSum,rightAns.maxPathSum,ans.straightPathSum,leftAns.straightPathSum+rightAns.straightPathSum+root->val});
 
         return ans;
     }
@@ -35,6 +25,6 @@ public:
         if(root->left == NULL && root->right == NULL) return root->val;
 
 
-        return solve(root).maxSum;
+        return solve(root).maxPathSum;
     }
 };
