@@ -1,12 +1,13 @@
 struct Data {
     int sum = 0;
-    int maxSum = 0;
     bool isBST = true;
     int maxVal = INT_MIN;
     int minVal = INT_MAX;
 };
 
 class Solution {
+
+    int maxSum = 0;
 
     Data solve(TreeNode* root){
         if(root == NULL) return Data();
@@ -21,7 +22,8 @@ class Solution {
 
             ans.isBST = false;
 
-            ans.maxSum = max(leftAns.maxSum,rightAns.maxSum);
+            maxSum = max({maxSum,leftAns.sum,rightAns.sum});
+
             ans.minVal = min({leftAns.minVal,rightAns.minVal,root->val});
             ans.maxVal = max({leftAns.maxVal,rightAns.maxVal,root->val});
 
@@ -29,7 +31,7 @@ class Solution {
         }
 
         ans.sum = leftAns.sum + rightAns.sum + root->val;
-        ans.maxSum = max({leftAns.maxSum,rightAns.maxSum,ans.sum});
+        maxSum = max(maxSum,ans.sum);
         ans.minVal = min({leftAns.minVal,rightAns.minVal,root->val});
         ans.maxVal = max({leftAns.maxVal,rightAns.maxVal,root->val});
 
@@ -39,7 +41,7 @@ class Solution {
 
 public:
     int maxSumBST(TreeNode* root) {
-        int finalAns = solve(root).maxSum;
-        return (finalAns > 0) ? finalAns : 0;
+        solve(root).sum;
+        return (maxSum > 0) ? maxSum : 0;
     }
 };
