@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Parth06102006/DSA/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Parth06102006/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0486-predict-the-winner](https://github.com/Parth06102006/DSA/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Parth06102006/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parth06102006/DSA/tree/master/0503-next-greater-element-ii) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Parth06102006/DSA/tree/master/0085-maximal-rectangle) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1260-shift-2d-grid](https://github.com/Parth06102006/DSA/tree/master/1260-shift-2d-grid) |
 ## Sliding Window
 |  |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Parth06102006/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Parth06102006/DSA/tree/master/0239-sliding-window-maximum) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Parth06102006/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Sorting
@@ -270,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Parth06102006/DSA/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Parth06102006/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Parth06102006/DSA/tree/master/0217-contains-duplicate) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0853-car-fleet](https://github.com/Parth06102006/DSA/tree/master/0853-car-fleet) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Parth06102006/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
