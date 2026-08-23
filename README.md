@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Parth06102006/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Parth06102006/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1260-shift-2d-grid](https://github.com/Parth06102006/DSA/tree/master/1260-shift-2d-grid) |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parth06102006/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Parth06102006/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Parth06102006/DSA/tree/master/0085-maximal-rectangle) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1260-shift-2d-grid](https://github.com/Parth06102006/DSA/tree/master/1260-shift-2d-grid) |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 ## Sliding Window
 |  |
 | ------- |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Parth06102006/DSA/tree/master/0658-find-k-closest-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/Parth06102006/DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -281,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Parth06102006/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Parth06102006/DSA/tree/master/0658-find-k-closest-elements) |
 | [1004-max-consecutive-ones-iii](https://github.com/Parth06102006/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Sorting
 |  |
@@ -294,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/Parth06102006/DSA/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/Parth06102006/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Parth06102006/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Parth06102006/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Parth06102006/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
