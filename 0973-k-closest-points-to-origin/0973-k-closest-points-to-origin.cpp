@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        priority_queue<pair<double,vector<int>>> pq;
+        priority_queue<pair<int,vector<int>>> pq;
 
         int n = points.size();
 
@@ -10,7 +10,7 @@ public:
             int y = points[i][1];
             
             // No need to calculate the square root
-            double dist_from_origin = pow(x*x + y*y,0.5);
+            int dist_from_origin = x*x + y*y;
 
             pq.push({dist_from_origin,{x,y}});
 
