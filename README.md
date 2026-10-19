@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Parth06102006/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Parth06102006/DSA/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Parth06102006/DSA/tree/master/0853-car-fleet) |
+| [0860-lemonade-change](https://github.com/Parth06102006/DSA/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/Parth06102006/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parth06102006/DSA/tree/master/0907-sum-of-subarray-minimums) |
 | [0930-binary-subarrays-with-sum](https://github.com/Parth06102006/DSA/tree/master/0930-binary-subarrays-with-sum) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/Parth06102006/DSA/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Parth06102006/DSA/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/Parth06102006/DSA/tree/master/0860-lemonade-change) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2029-stone-game-ix](https://github.com/Parth06102006/DSA/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Parth06102006/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
