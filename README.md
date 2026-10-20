@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Parth06102006/DSA/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Parth06102006/DSA/tree/master/0049-group-anagrams) |
+| [0055-jump-game](https://github.com/Parth06102006/DSA/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Parth06102006/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Parth06102006/DSA/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Parth06102006/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Parth06102006/DSA/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Parth06102006/DSA/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/Parth06102006/DSA/tree/master/0085-maximal-rectangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Parth06102006/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Parth06102006/DSA/tree/master/0152-maximum-product-subarray) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Parth06102006/DSA/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Parth06102006/DSA/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Parth06102006/DSA/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Parth06102006/DSA/tree/master/0860-lemonade-change) |
