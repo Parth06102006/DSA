@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Parth06102006/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Parth06102006/DSA/tree/master/2029-stone-game-ix) |
 | [2104-sum-of-subarray-ranges](https://github.com/Parth06102006/DSA/tree/master/2104-sum-of-subarray-ranges) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Parth06102006/DSA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Parth06102006/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/Parth06102006/DSA/tree/master/3731-find-missing-elements) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Parth06102006/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parth06102006/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Parth06102006/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3903-smallest-stable-index-i](https://github.com/Parth06102006/DSA/tree/master/3903-smallest-stable-index-i) |
 ## Two Pointers
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Parth06102006/DSA/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Parth06102006/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/Parth06102006/DSA/tree/master/0658-find-k-closest-elements) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -255,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/Parth06102006/DSA/tree/master/0860-lemonade-change) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2029-stone-game-ix](https://github.com/Parth06102006/DSA/tree/master/2029-stone-game-ix) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Parth06102006/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Parth06102006/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Matrix
@@ -306,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/Parth06102006/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/Parth06102006/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -336,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Parth06102006/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Parth06102006/DSA/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Parth06102006/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Parth06102006/DSA/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Parth06102006/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Parth06102006/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/Parth06102006/DSA/tree/master/3536-maximum-product-of-two-digits) |
